@@ -1,0 +1,42 @@
+[
+  {
+    "Schemas": [
+      "urn:ietf:params:scim:schemas:core:2.0:User"
+    ],
+    "Id": "d85d6801-e959-40bd-8ef5-4eb2fdceb0c8",
+    "ExternalId": "abc123",
+    "UserName": "testuser@example.com",
+    "Active": true,
+    "Name": {
+      "GivenName": "Test",
+      "FamilyName": "User"
+    },
+    "Emails": [
+      {
+        "Value": "testuser@example.com",
+        "Type": "work",
+        "Primary": true
+      }
+    ]
+  },
+  {
+    "Schemas": [
+      "urn:ietf:params:scim:schemas:core:2.0:User"
+    ],
+    "Id": "2b73a2f5-3f5d-41d2-8cf0-4ee56122e81a",
+    "ExternalId": "enkeltmann",
+    "UserName": "enkeltmann@example.com",
+    "Active": true,
+    "Name": {
+      "GivenName": "Best",
+      "FamilyName": "Abuser"
+    },
+    "Emails": [
+      {
+        "Value": "enkeltmann@example.com",
+        "Type": "work",
+        "Primary": true
+      }
+    ]
+  }
+]
